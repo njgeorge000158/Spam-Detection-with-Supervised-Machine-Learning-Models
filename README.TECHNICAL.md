@@ -1,4 +1,4 @@
-# **Credit Risk Classification using Logistic Regression**
+# **Spam Detection with Supervised Machine Learning Models Using Scikit-Learn**
 
 ----
 
@@ -32,19 +32,17 @@ pip3 install -U scikit-learn
 
 ----
 
-The IPython notebook, credit_risk_classification.ipynb, requires the following Python scripts with it in the same folder:
+The IPython notebook, spam_detector.ipynb, requires the following Python scripts with it in the same folder:
 
-credit_risk_classification_functions.py
+classificationsx.py
 
-log_constants.py
+logx_constants.py
 
-log_functions.py
+logx.py
 
-log_subroutines.py
+pandas_processx.py
 
-pandas_process_functions.py
-
-If the folders, logs and images, are not present, the IPython notebook will create them.  The IPython notebook, credit_risk_classification.ipynb, needs the csv file, lending_data.csv, in the folder, resources, to execute. To place the IPython notebook in Log Mode or Image Mode set the parameter for the appropriate subroutine in coding cell #2 to True. If the program is in Log Mode, it writes information to the log file. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files in the Images Folder.
+If the folders, logs and images, are not present, the IPython notebook will create them.  The IPython notebook, spam_detector.ipynb, requires the csv file, spam_data.csv, found in the link, https://static.bc-edx.com/mbc/ai/m4/datasets/spam-data.csv, to execute. To place the IPython notebook in Log Mode or Image Mode set the parameter for the appropriate function in the IPython notebook's second coding cell to True. If the program is in Log Mode, it writes designated information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files to the folder, images.
 
 ----
 
@@ -54,11 +52,11 @@ If the folders, logs and images, are not present, the IPython notebook will crea
 
 #### Source code
 
-credit_risk_classification.ipynb, credit_risk_classification_functions.py, log_constants.py, log_functions.py, log_subroutines.py, pandas_process_functions.py
+spam_detector.ipynb, classificationsx.py, logx_constants.py, logx.py, log_subroutines.py, pandas_processx.py
 
 #### Input files
 
-lending_data.csv
+spam_data.csv
 
 #### Output files
 
@@ -82,17 +80,15 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 #### main branch 
 
-|&rarr; [./credit_risk_classification.ipynb](./credit_risk_classification.ipynb)
+|&rarr; [./classificationsx.py](./classificationsx.pyn)
 
-|&rarr; [./credit_risk_classification_functions.py](./credit_risk_classification_functions.py)
+|&rarr; [./logx_constants.py](./logx_constants.py)
 
-|&rarr; [./log_constants.py](./log_constants.py)
+|&rarr; [./logx.py](./logx.py)
 
-|&rarr; [./log_functions.py](./log_functions.py)
+|&rarr; [./pandas_processx.py](./pandas_processx.py)
 
-|&rarr; [./log_subroutines.py](./log_subroutines.py)
-
-|&rarr; [./pandas_process_functions.py](./pandas_process_functions.py)
+|&rarr; [./spam_detector.ipynb](./spam_detector.ipynb)
 
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 
@@ -100,27 +96,77 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 |&rarr; [./images/](./images/)
 
-  &emsp; |&rarr; [./images/credit_risk_classificationTable11LendingDataTable.png](./images/credit_risk_classificationTable11LendingDataTable.png)
+  &emsp; |&rarr; [./images/spam_detectorTable131SpamYSeries.png](./images/spam_detectorTable131SpamYSeries.png)
   
-  &emsp; |&rarr; [./images/credit_risk_classificationTable22TestingDataLabelPredictionsOriginal.png](./images/credit_risk_classificationTable22TestingDataLabelPredictionsOriginal.png)
+  &emsp; |&rarr; [./images/spam_detectorTable231LogisticRegressionTrainingPredictions.png](./images/spam_detectorTable231LogisticRegressionTrainingPredictions.png)
 
-  &emsp; |&rarr; [./images/credit_risk_classificationTable32TestingDataLabelPredictionsResampled.png](./images/credit_risk_classificationTable32TestingDataLabelPredictionsResampled.png)
+  &emsp; |&rarr; [./images/spam_detectorTable232LogisticRegressionTestPredictions.png](./images/spam_detectorTable232LogisticRegressionTestPredictions.png)
 
-  &emsp; |&rarr; [./images/credit_risk_classificationTable121YVariableSeries.png](./images/credit_risk_classificationTable121YVariableSeries.png)
+  &emsp; |&rarr; [./images/spam_detectorTable331DecisionTreeTrainingPredictions.png](./images/spam_detectorTable331DecisionTreeTrainingPredictions.png)
 
-  &emsp; |&rarr; [./images/credit_risk_classificationTable122XVariableDataFrame.png](./images/credit_risk_classificationTable122XVariableDataFrame.png)
+  &emsp; |&rarr; [./images/spam_detectorTable332DecisionTreeTestPredictions.png](./images/spam_detectorTable332DecisionTreeTestPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable431RandomForestTrainingPredictions.png](./images/spam_detectorTable431RandomForestTrainingPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable432RandomForestTestPredictions.png](./images/spam_detectorTable432RandomForestTestPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable531SVCTrainingPredictions.png](./images/spam_detectorTable531SVCTrainingPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable532SVCTestPredictions.png](./images/spam_detectorTable532SVCTestPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable631KNNTrainingPredictions.png](./images/spam_detectorTable631KNNTrainingPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable632KNNTestPredictions.png](./images/spam_detectorTable632KNNTestPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable831LogisticRegressionResampledTrainingPredictions.png](./images/spam_detectorTable831LogisticRegressionResampledTrainingPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable832LogisticRegressionResampledTestPredictions.png](./images/spam_detectorTable832LogisticRegressionResampledTestPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable931DecisionTreeResampledTrainingPredictions.png](./images/spam_detectorTable931DecisionTreeResampledTrainingPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable932DecisionTreeResampledTestPredictions.png](./images/spam_detectorTable932DecisionTreeResampledTestPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable1031RandomForestResampledTrainingPredictions.png](./images/spam_detectorTable1031RandomForestResampledTrainingPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable1032RandomForestResampledTestPredictions.png](./images/spam_detectorTable1032RandomForestResampledTestPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable1131SVMResampledTrainingPredictions.png](./images/spam_detectorTable1131SVMResampledTrainingPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable1132SVMResampledTestPredictions.png](./images/spam_detectorTable1132SVMResampledTestPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable1231KNNResampledTrainingPredictions.png](./images/spam_detectorTable1231KNNResampledTrainingPredictions.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable1232KNNResampledTestPredictions.png](./images/spam_detectorTable1232KNNResampledTestPredictions.png)
 
   &emsp; |&rarr; [./images/README.md](./images/README.md)
   
 |&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./logs/20240407credit_risk_classification_log.txt](./logs/20240407credit_risk_classification_log.txt)
+  &emsp; |&rarr; [./logs/20240411spam_detector_log.txt](./logs/20240411spam_detector_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 
 |&rarr; [./resources/](./resources/)
 
-  &emsp; |&rarr; [./resources/lending_data.csv](./resources/lending_data.csv)
+  &emsp; |&rarr; [./resources/dt_model.sav](./resources/dt_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_resampled_model.sav](./resources/dt_resampled_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_model.sav](./resources/knn_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_resampled_model.sav](./resources/knn_resampled_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_model.sav](./resources/lr_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_resampled_model.sav](./resources/lr_resampled_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_model.sav](./resources/rf_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_resampled_model.sav](./resources/rf_resampled_model.sav)
+
+  &emsp; |&rarr; [./resources/svm_model.sav](./resources/svm_model.sav)
+
+  &emsp; |&rarr; [./resources/svm_resampled_model.sav](./resources/svm_resampled_model.sav)
 
   &emsp; |&rarr; [./resources/README.md](./resources/README.md)
 
@@ -150,4 +196,4 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 ### Copyright
 
-Nicholas J. George © 2023. All Rights Reserved.
+Nicholas J. George © 2024. All Rights Reserved.
