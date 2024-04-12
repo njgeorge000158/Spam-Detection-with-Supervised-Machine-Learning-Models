@@ -1,7 +1,7 @@
-This folder holds the input file for the IPython Notebook, credit_risk_classification.ipynb.
+This folder holds the saved machine learning models for the IPython Notebook, spam_detector.ipynb.
 
 ----
 
 ## Copyright
 
-Nicholas J. George © 2023. All Rights Reserved.
+Nicholas J. George © 2024. All Rights Reserved.
