@@ -187,8 +187,9 @@ def save_image_and_return_styler \
         if logx_constants.IMAGE_FLAG == True:
 
             image_file_path_string = logx.get_image_file_path(caption_string, 'png')
-        
-            dataframe_image.export(input_styler, image_file_path_string)
+            
+            dataframe_image.export \
+                (input_styler, image_file_path_string, max_rows = -1, max_cols = -1)
         
         return input_styler
         
