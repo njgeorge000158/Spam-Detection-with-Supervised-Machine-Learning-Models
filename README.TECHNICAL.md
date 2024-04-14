@@ -80,7 +80,7 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 #### main branch 
 
-|&rarr; [./classificationsx.py](./classificationsx.pyn)
+|&rarr; [./classificationsx.py](./classificationsx.py)
 
 |&rarr; [./logx_constants.py](./logx_constants.py)
 
@@ -96,53 +96,99 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 |&rarr; [./images/](./images/)
 
-  &emsp; |&rarr; [./images/spam_detectorTable131SpamYSeries.png](./images/spam_detectorTable131SpamYSeries.png)
+  &emsp; |&rarr; [./images/spam_detectorTable12SpamDataTable.png](./images/spam_detectorTable12SpamDataTable.png)
   
-  &emsp; |&rarr; [./images/spam_detectorTable231LogisticRegressionTrainingPredictions.png](./images/spam_detectorTable231LogisticRegressionTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable97ModelPerformanceResults.png](./images/spam_detectorTable97ModelPerformanceResults.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable232LogisticRegressionTestPredictions.png](./images/spam_detectorTable232LogisticRegressionTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable131SpamYSeries.png](./images/spam_detectorTable131SpamYSeries.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable331DecisionTreeTrainingPredictions.png](./images/spam_detectorTable331DecisionTreeTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable132SpamXDataFrame.png](./images/spam_detectorTable132SpamXDataFrame.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable332DecisionTreeTestPredictions.png](./images/spam_detectorTable332DecisionTreeTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable151SpamScaledXVariableTrainingData.png](./images/spam_detectorTable151SpamScaledXVariableTrainingData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable431RandomForestTrainingPredictions.png](./images/spam_detectorTable431RandomForestTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable152SpamScaledXVariableTestData.png](./images/spam_detectorTable152SpamScaledXVariableTestData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable432RandomForestTestPredictions.png](./images/spam_detectorTable432RandomForestTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable241XTrainingScaledUndersampledData.png](./images/spam_detectorTable241XTrainingScaledUndersampledData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable531SVCTrainingPredictions.png](./images/spam_detectorTable531SVCTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable242XTrainingScaledOversampledData.png](./images/spam_detectorTable242XTrainingScaledOversampledData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable532SVCTestPredictions.png](./images/spam_detectorTable532SVCTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable331LogisticRegressionTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable331LogisticRegressionTrainingPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable631KNNTrainingPredictions.png](./images/spam_detectorTable631KNNTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable332LogisticRegressionTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable332LogisticRegressionTestPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable632KNNTestPredictions.png](./images/spam_detectorTable632KNNTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable333LogisticRegressionUndersampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable333LogisticRegressionUndersampledTrainingPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable831LogisticRegressionResampledTrainingPredictions.png](./images/spam_detectorTable831LogisticRegressionResampledTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable334LogisticRegressionUndersampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable334LogisticRegressionUndersampledTestPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable832LogisticRegressionResampledTestPredictions.png](./images/spam_detectorTable832LogisticRegressionResampledTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable335LogisticRegressionOversampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable335LogisticRegressionOversampledTrainingPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable931DecisionTreeResampledTrainingPredictions.png](./images/spam_detectorTable931DecisionTreeResampledTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable336LogisticRegressionOversampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable336LogisticRegressionOversampledTestPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable932DecisionTreeResampledTestPredictions.png](./images/spam_detectorTable932DecisionTreeResampledTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable431DecisionTreeTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable431DecisionTreeTrainingPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable1031RandomForestResampledTrainingPredictions.png](./images/spam_detectorTable1031RandomForestResampledTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable432DecisionTreeTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable432DecisionTreeTestPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable1032RandomForestResampledTestPredictions.png](./images/spam_detectorTable1032RandomForestResampledTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable433DecisionTreeUndersampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable433DecisionTreeUndersampledTrainingPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable1131SVMResampledTrainingPredictions.png](./images/spam_detectorTable1131SVMResampledTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable434DecisionTreeUndersampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable434DecisionTreeUndersampledTestPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable1132SVMResampledTestPredictions.png](./images/spam_detectorTable1132SVMResampledTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable435DecisionTreeOversampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable435DecisionTreeOversampledTrainingPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable1231KNNResampledTrainingPredictions.png](./images/spam_detectorTable1231KNNResampledTrainingPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable436DecisionTreeOversampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable436DecisionTreeOversampledTestPredictionsvsActualOutcomes.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable1232KNNResampledTestPredictions.png](./images/spam_detectorTable1232KNNResampledTestPredictions.png)
+  &emsp; |&rarr; [./images/spam_detectorTable531RandomForestTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable531RandomForestTrainingPredictionsvsActualOutcomes.png)
 
+  &emsp; |&rarr; [./images/spam_detectorTable532RandomForestTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable532RandomForestTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable533RandomForestUndersampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable533RandomForestUndersampledTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable534RandomForestUndersampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable534RandomForestUndersampledTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable535RandomForestOversampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable535RandomForestOversampledTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable536RandomForestOversampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable536RandomForestOversampledTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable631SVMTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable631SVMTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable632SVMTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable632SVMTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable633SVMUndersampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable633SVMUndersampledTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable634SVMUndersampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable634SVMUndersampledTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable635SVMOversampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable635SVMOversampledTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable636SVMOversampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable636SVMOversampledTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable731KNNTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable731KNNTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable732KNNTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable732KNNTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable733KNNUndersampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable733KNNUndersampledTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable734KNNUndersampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable734KNNUndersampledTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable735KNNOversampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable735KNNOversampledTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable736KNNOversampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable736KNNOversampledTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable831GNBTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable831GNBTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable832GNBTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable832GNBTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable833GNBUndersampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable833GNBUndersampledTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable834GNBUndersampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable834GNBUndersampledTestPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable835GNBOversampledTrainingPredictionsvsActualOutcomes.png](./images/spam_detectorTable835GNBOversampledTrainingPredictionsvsActualOutcomes.png)
+
+  &emsp; |&rarr; [./images/spam_detectorTable836GNBOversampledTestPredictionsvsActualOutcomes.png](./images/spam_detectorTable836GNBOversampledTestPredictionsvsActualOutcomes.png)
+  
   &emsp; |&rarr; [./images/README.md](./images/README.md)
   
 |&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./logs/20240411spam_detector_log.txt](./logs/20240411spam_detector_log.txt)
+  &emsp; |&rarr; [./logs/20240414spam_detector_log.txt](./logs/20240414spam_detector_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 
@@ -150,23 +196,39 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
   &emsp; |&rarr; [./resources/dt_model.sav](./resources/dt_model.sav)
 
-  &emsp; |&rarr; [./resources/dt_resampled_model.sav](./resources/dt_resampled_model.sav)
+  &emsp; |&rarr; [./resources/dt_oversampled_model.sav](./resources/dt_oversampled_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_undersampled_model.sav](./resources/dt_undersampled_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_model.sav](./resources/gnb_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_oversampled_model.sav](./resources/gnb_oversampled_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_undersampled_model.sav](./resources/gnb_undersampled_model.sav)
 
   &emsp; |&rarr; [./resources/knn_model.sav](./resources/knn_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_resampled_model.sav](./resources/knn_resampled_model.sav)
+  &emsp; |&rarr; [./resources/knn_oversampled_model.sav](./resources/knn_oversampled_model.sav)
+
+  &emsp; |&rarr; [./resources/knn_undersampled_model.sav](./resources/knn_undersampled_model.sav)
 
   &emsp; |&rarr; [./resources/lr_model.sav](./resources/lr_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_resampled_model.sav](./resources/lr_resampled_model.sav)
+  &emsp; |&rarr; [./resources/lr_oversampled_model.sav](./resources/lr_oversampled_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_undersampled_model.sav](./resources/lr_undersampled_model.sav)
 
   &emsp; |&rarr; [./resources/rf_model.sav](./resources/rf_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_resampled_model.sav](./resources/rf_resampled_model.sav)
+  &emsp; |&rarr; [./resources/rf_oversampled_model.sav](./resources/rf_oversampled_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_undersampled_model.sav](./resources/rf_undersampled_model.sav)
 
   &emsp; |&rarr; [./resources/svm_model.sav](./resources/svm_model.sav)
+  
+  &emsp; |&rarr; [./resources/svm_oversampled_model.sav](./resources/svm_oversampled_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_resampled_model.sav](./resources/svm_resampled_model.sav)
+  &emsp; |&rarr; [./resources/svm_undersampled_model.sav](./resources/svm_undersampled_model.sav)
 
   &emsp; |&rarr; [./resources/README.md](./resources/README.md)
 
