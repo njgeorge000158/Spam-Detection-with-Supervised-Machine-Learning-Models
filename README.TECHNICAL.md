@@ -42,6 +42,8 @@ logx.py
 
 pandas_processx.py
 
+spam_detector_constants.py
+
 If the folders, logs and images, are not present, the IPython notebook will create them.  The IPython notebook, spam_detector.ipynb, requires the csv file, spam_data.csv, found in the link, https://static.bc-edx.com/mbc/ai/m4/datasets/spam-data.csv, to execute. To place the IPython notebook in Log Mode or Image Mode set the parameter for the appropriate function in the IPython notebook's second coding cell to True. If the program is in Log Mode, it writes designated information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files to the folder, images.
 
 ----
@@ -52,7 +54,7 @@ If the folders, logs and images, are not present, the IPython notebook will crea
 
 #### Source code
 
-spam_detector.ipynb, classificationsx.py, logx_constants.py, logx.py, log_subroutines.py, pandas_processx.py
+spam_detector.ipynb, spam_detector_constants.py, classificationsx.py, logx_constants.py, logx.py, pandas_processx.py
 
 #### Input files
 
@@ -89,8 +91,6 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 |&rarr; [./pandas_processx.py](./pandas_processx.py)
 
 |&rarr; [./spam_detector_constants.py](./spam_detector_constants.py)
-
-|&rarr; [./spam_detector_old.ipynb](./spam_detector_old.ipynb)
 
 |&rarr; [./spam_detector_optimization.ipynb](./spam_detector_optimization.ipynb)
 
