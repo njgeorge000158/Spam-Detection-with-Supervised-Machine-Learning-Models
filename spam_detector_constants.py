@@ -29,6 +29,9 @@ CONSTANT_LOCAL_FILE_NAME = 'spam_detector_constants.py'
 # In[3]:
 
 
+CONSTANT_INPUT_FILE_PATH = 'https://static.bc-edx.com/mbc/ai/m4/datasets/spam-data.csv'
+
+
 CONSTANT_ML_RANDOM_STATE_1 = 21
 
 CONSTANT_ML_RANDOM_STATE_2 = 9
