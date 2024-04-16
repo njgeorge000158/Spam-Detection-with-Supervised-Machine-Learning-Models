@@ -20,6 +20,10 @@
  #      return_dataframe_description
  #      return_formatted_description
  #
+ #      display_dataframe_column_counts
+ #      display_dataframe_column_unique_values
+ #      display_series_unique_value_counts
+ #
  #
  #  Date            Description                             Programmer
  #  ----------      ------------------------------------    ------------------
@@ -499,6 +503,156 @@ def return_formatted_description \
     current_styler = return_dataframe_description(input_dataframe, caption_string)
 
     return save_image_and_return_styler(current_styler, caption_string)
+
+
+# In[10]:
+
+
+#*******************************************************************************************
+ #
+ #  Function Name:  display_dataframe_column_counts
+ #
+ #  Function Description:
+ #      This function displays a dataframe's column counts.
+ #
+ #
+ #  Return Type: n/a
+ #
+ #
+ #  Function Parameters:
+ #
+ #  Type    Name            Description
+ #  -----   -------------   ----------------------------------------------
+ #  dataframe
+ #          input_dataframe The parameter is the input dataframe.
+ #
+ #
+ #  Date                Description                                 Programmer
+ #  ---------------     ------------------------------------        ------------------
+ #  04/11/2024          Initial Development                         Nicholas J. George
+ #
+ #******************************************************************************************/
+
+def display_dataframe_column_counts(input_dataframe):
+
+    try:
+
+        for i, column in enumerate(student_loan_dataframe.columns):
+        
+            count_integer = student_loan_dataframe[column].nunique()
+        
+            logx.print_and_log_text \
+                ('\033[1m' + f'{column}: ' + '{:,}\n'.format(count_integer) + '\033[0m')
+
+    except:
+
+        logx.print_and_log_text \
+            ('The function, display_dataframe_column_counts, '
+             + f'in source file, {CONSTANT_LOCAL_FILE_NAME}, '
+             + "cannot display the DataFrame's column counts.")
+
+
+# In[11]:
+
+
+#*******************************************************************************************
+ #
+ #  Function Name:  display_dataframe_column_unique_values
+ #
+ #  Function Description:
+ #      This function displays the dataframe column unique values.
+ #
+ #
+ #  Return Type: n/a
+ #
+ #
+ #  Function Parameters:
+ #
+ #  Type    Name            Description
+ #  -----   -------------   ----------------------------------------------
+ #  dataframe
+ #          input_dataframe The parameter is the input dataframe.
+ #
+ #
+ #  Date                Description                                 Programmer
+ #  ---------------     ------------------------------------        ------------------
+ #  04/11/2024          Initial Development                         Nicholas J. George
+ #
+ #******************************************************************************************/
+
+def display_dataframe_column_unique_values(input_dataframe):
+
+    try:
+
+        for i, column in enumerate(input_dataframe.columns):
+        
+            value_string_list = input_dataframe[column].unique().tolist()
+        
+            logx.print_and_log_text \
+                ('\033[1m' + f'{column}:\n'
+                 + f'{sorted(value_string_list, reverse = False)}\n\n'
+                 + '\033[0m')
+    
+    except:
+
+        logx.print_and_log_text \
+            ('The function, display_dataframe_column_unique_values, '
+             + f'in source file, {CONSTANT_LOCAL_FILE_NAME}, '
+             + 'cannot display the DataFrame column unique values.')  
+
+
+# In[12]:
+
+
+#*******************************************************************************************
+ #
+ #  Function Name:  display_series_unique_value_counts
+ #
+ #  Function Description:
+ #      This function displays the sorted unique value count of a series then returns
+ #      the sorted series.
+ #
+ #
+ #  Return Type: n/a
+ #
+ #
+ #  Function Parameters:
+ #
+ #  Type    Name            Description
+ #  -----   -------------   ----------------------------------------------
+ #  dataframe
+ #          input_dataframe The parameter is the input dataframe.
+ #
+ #
+ #  Date                Description                                 Programmer
+ #  ---------------     ------------------------------------        ------------------
+ #  04/11/2024          Initial Development                         Nicholas J. George
+ #
+ #******************************************************************************************/
+
+def display_series_unique_value_counts \
+        (input_series,
+         series_name_string = 'output_series'):
+
+    try:
+
+        output_series = input_series.value_counts().sort_values(ascending = False)
+
+        output_series.name = series_name_string
+
+        for i, v in output_series.items():
+
+            logx.print_and_log_text('\033[1m' + str(i) + '\t' + str(v) + '\n' + '\033[0m')
+
+
+        return output_series
+
+    except:
+
+        logx.print_and_log_text \
+            ('The function, display_series_unique_value_counts, '
+             + f'in source file, {CONSTANT_LOCAL_FILE_NAME}, '
+             + 'cannot display the unique value counts of a series.')  
 
 
 # In[ ]:
