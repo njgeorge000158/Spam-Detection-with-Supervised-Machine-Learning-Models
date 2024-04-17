@@ -1,4 +1,4 @@
-This folder holds the input/output files for the IPython Notebook, spam_detector.ipynb.
+This folder holds the input/output files for the IPython Notebooks, spam_detector.ipynb and spam_detector_optimization.ipynb.
 
 ----
 
