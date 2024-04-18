@@ -17,7 +17,7 @@ To accomplish the analysis, I used the following process:
 6. Fit the models by using the optimized parameters and the training data.
 7. Evaluated the each model’s performance using the testing data to find the accuracy, precision, and recall scores in a confusion matrix.
 
-The purpose of this analysis is to evaluate the performance of Logistic Regression and Random Forest for predicting whether an e-mail is spam. Here are the results of those two models and the ranking of all the models.
+Here are the results of those two models and the ranking of all the models.
 
 <img width="432" alt="Screenshot 2024-04-17 at 3 51 23 PM" src="https://github.com/njgeorge000158/Spam-Detection-with-Supervised-Machine-Learning-Models-Using-Scikit-Learn/assets/137228821/3009deba-873d-4fec-8320-86d1e3210d41"><img width="431" alt="Screenshot 2024-04-17 at 3 52 02 PM" src="https://github.com/njgeorge000158/Spam-Detection-with-Supervised-Machine-Learning-Models-Using-Scikit-Learn/assets/137228821/a59bf1a5-625d-4951-9cb7-150780118771">
 <img width="432" alt="Screenshot 2024-04-17 at 5 08 17 PM" src="https://github.com/njgeorge000158/Spam-Detection-with-Supervised-Machine-Learning-Models-Using-Scikit-Learn/assets/137228821/2edec370-ed15-4ab6-86d8-b08a680fa4fa">
