@@ -20,6 +20,7 @@ To accomplish the analysis, I used the following process:
 The purpose of this analysis is to evaluate the performance of Logistic Regression and Random Forest for predicting whether an e-mail is spam. Here are the results of those two models and the ranking of all the models.
 
 <img width="432" alt="Screenshot 2024-04-17 at 3 51 23 PM" src="https://github.com/njgeorge000158/Spam-Detection-with-Supervised-Machine-Learning-Models-Using-Scikit-Learn/assets/137228821/3009deba-873d-4fec-8320-86d1e3210d41"><img width="431" alt="Screenshot 2024-04-17 at 3 52 02 PM" src="https://github.com/njgeorge000158/Spam-Detection-with-Supervised-Machine-Learning-Models-Using-Scikit-Learn/assets/137228821/a59bf1a5-625d-4951-9cb7-150780118771">
+<img width="436" alt="Screenshot 2024-04-17 at 5 03 33 PM" src="https://github.com/njgeorge000158/Spam-Detection-with-Supervised-Machine-Learning-Models-Using-Scikit-Learn/assets/137228821/931bd3a0-8970-46bc-8c1d-0726fc544f7f">
 
 <img width="347" alt="Screenshot 2024-04-17 at 3 52 44 PM" src="https://github.com/njgeorge000158/Spam-Detection-with-Supervised-Machine-Learning-Models-Using-Scikit-Learn/assets/137228821/33020891-cd3c-434e-bbd0-4cac5ffc8de5">
 
