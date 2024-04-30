@@ -14,7 +14,7 @@ This project only requires running the Google Colab Notebook, spam_detector.ipyn
 
 ----
 
-The Google Colab Notebook, spam_detector.ipynb, requires the following Python scripts with it in the same folder:
+The Google Colab Notebook, spam_detector_colab.ipynb, requires the following Python scripts with it in the same folder:
 
 classificationsx.py
 
@@ -26,7 +26,7 @@ spam_detector_constants.py
 
 timex.py
 
-If the folders, logs and images, are not present, the Google Colab Notebook will create them.  The Google Colab Notebook, spam_detector.ipynb, requires the csv file, spam_data.csv, found in the link, https://static.bc-edx.com/mbc/ai/m4/datasets/spam-data.csv, and grid search model files found in the folder, resources, to execute. To place the Google Colab Notebook in Log Mode or Image Mode set the parameter for the appropriate function in the Google Colab Notebook's second coding cell to True. In Log Mode, it writes designated information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files to the folder, images.
+If the folders, logs and images, are not present, the Google Colab Notebook will create them.  The Google Colab Notebook, spam_detector_colab.ipynb, requires the csv file, spam_data.csv, found in the link, https://static.bc-edx.com/mbc/ai/m4/datasets/spam-data.csv, and grid search model files found in the folder, resources, to execute. To place the Google Colab Notebook in Log Mode or Image Mode set the parameter for the appropriate function in the Google Colab Notebook's second coding cell to True. In Log Mode, it writes designated information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files to the folder, images.
 
 ----
 
@@ -36,7 +36,7 @@ If the folders, logs and images, are not present, the Google Colab Notebook will
 
 #### Source code
 
-spam_detector.ipynb, classificationsx.py, logx.py, pandasx.py, spam_detector_constants.py, timex.py
+spam_detector_colab.ipynb, classificationsx.py, logx.py, pandasx.py, spam_detector_constants.py, timex.py
 
 #### Input files
 
@@ -68,17 +68,19 @@ Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 |&rarr; [./logx.py](./logx.py)
 
-|&rarr; [./pandas_processx.py](./pandasx.py)
+|&rarr; [./pandasx.py](./pandasx.py)
 
 |&rarr; [./spam_detector_constants.py](./spam_detector_constants.py)
 
-|&rarr; [./spam_detector_optimization.ipynb](./spam_detector_optimization.ipynb)
+|&rarr; [./spam_detector_hyperparameters_optimization.ipynb](./spam_detector_hyperparameters_optimization.ipynb)
 
-|&rarr; [./spam_detector.ipynb](./spam_detector.ipynb)
+|&rarr; [./spam_detector_colab.ipynb](./spam_detector_colab.ipynb)
 
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
 
 |&rarr; [./README.md](./README.md)
+
+|&rarr; [./timex.py](./timex.pyy)
 
 |&rarr; [./images/](./images/)
 
