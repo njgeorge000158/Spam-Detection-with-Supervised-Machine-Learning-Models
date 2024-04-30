@@ -2,7 +2,7 @@
 
 ----
 
-## Table of Contents (credit_risk_classification_colab.ipynb)
+## Table of Contents (spam_detector.ipynb)
 
 ----
 
