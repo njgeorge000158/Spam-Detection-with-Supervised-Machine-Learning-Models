@@ -27,7 +27,7 @@ The tabulation of the overall accuracy of all the models produced the following 
 
 ## **Summary**
 
-My prediction of Logistic Regression producing better results than Random Forest is incorrect: not only is the accuracy of the Random Forest model superior to the Logistic Regression's metric, but also the Random Forest model with random undersampling has better accuracy than the other 35 models surveyed.  The most notable observation from these results is the varying effects that oversampling methods can have on any classifier.  
+My prediction of Logistic Regression producing better results than Random Forest is incorrect: not only is the accuracy of the Random Forest model superior to the Logistic Regression's metric, but also the Random Forest model with random undersampling has better accuracy than the other 35 models surveyed.  The most notable observation from these results is the varying effects that various models and oversampling methods can have on the predictive accuracy of a data set.  
 
 ----
 
