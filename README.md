@@ -2,13 +2,13 @@
 
 ----
 
-# **Credit Risk Classification with Logistic Regression using Scikit-learn**
+# **Spam Detection with Supervised Machine Learning Models**
 
 ## **Overview of the Analysis**
 
-The purpose of this analysis is to improve the e-mail filtering system at an Internet Service Provider (ISP).  With a dataset containing the frequency of tokens from 2,788 normal and 1,813 spam e-mails, I developed a supervised machine learning model that accurately detects spam e-mails. When predicting whether the Logistic Regression or Random Forest would be a better choice, I gravitated towards Logistic Regression because of the numerical nature of the features.  Although the instructions stipulated only Logistic Regression and Random Forest models, due to the binary classification nature of the problem, I expanded the analysis to include Decision Tree, Support Vector Machine, K-Nearest Neighbor, and Gaussian Naive Bayes.  Furthermore, the discrepancy between the numbers of normal and spam e-mails convinced me to examine the effect of various techniques for random and synthetic sampling: random undersampling, random oversampling, cluster centroids, synthetic minority oversampling (SMOTE), and synthetic minority oversampling with edited nearest neighbors (SMOTEEN).
+The purpose of this analysis is to improve the e-mail filtering system at an Internet Service Provider (ISP).  With a dataset containing the frequencies of tokens from 2,788 normal and 1,813 spam e-mails, I compared different supervised machine models to find a model that accurately detects spam e-mails. When predicting whether the Logistic Regression or Random Forest would be a better choice, I gravitated towards Logistic Regression because of the numerical nature of the features.  Although the instructions only require Logistic Regression and Random Forest models for this analysis, due to the binary classification nature of the problem, I expanded the venue to include Decision Tree, Support Vector Machine, K-Nearest Neighbor, and Gaussian Naive Bayes.  Furthermore, the discrepancy between the numbers of normal and spam e-mails convinced me to examine the effect of various sampling methods: random undersampling, random oversampling, cluster centroids, synthetic minority oversampling (SMOTE), and synthetic minority oversampling with edited nearest neighbors (SMOTEEN).
 
-To accomplish the analysis, I used the following process:
+To meet my goal, I used the following process:
 
 1. Created 36 optimized hyperparameter models (6 classifiers X 6 sampling methodologies) in the IPython Notebook, spam_detector_optimization.ipynb, and wrote them to files in the folder, resources.
 2. Read the spam data into a dataframe in the IPython Notebook, spam_detector.ipynb.
@@ -27,7 +27,7 @@ The tabulation of the overall accuracy of all the models produced the following 
 
 ## **Summary**
 
-My prediction of Logistic Regression producing better results than Random Forest is incorrect: not only is the accuracy of the Random Forest model superior to the Logistic Regression's metric, but also the Random Forest model with random undersampling has better accuracy than the other 35 models surveyed.  The most notable observation from these results is the varying effects that various models and oversampling methods can have on the predictive accuracy of a data set.  
+In this case, my prediction of Logistic Regression producing better results than Random Forest is incorrect: not only is the accuracy of the Random Forest model superior to the Logistic Regression's metric, but also the Random Forest model with random undersampling has better accuracy than the other 35 models surveyed.  The most notable observation from these results is the varying effects that diverse models and oversampling methods can have on the predictive accuracy of a data set.  
 
 ----
 
