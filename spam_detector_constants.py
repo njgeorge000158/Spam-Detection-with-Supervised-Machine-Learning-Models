@@ -52,95 +52,95 @@ CONSTANT_LR_GRID_SEARCH_MODEL_FILE_PATH \
     = './resources/lr_grid_search_model.sav'
 
 CONSTANT_LR_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/lr_undersampled_grid_search_model.sav'
+    = './resources/lr_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_LR_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/lr_oversampled_grid_search_model.sav'
+    = './resources/lr_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_LR_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/lr_centroids_grid_search_model.sav'
+CONSTANT_LR_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/lr_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_LR_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/lr_smote_grid_search_model.sav'
+    = './resources/lr_SMOTE_grid_search_model.sav'
 
-CONSTANT_LR_SMOTEEN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/lr_smoteen_grid_search_model.sav'
+CONSTANT_LR_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/lr_SMOTEENN_grid_search_model.sav'
 
 
 CONSTANT_DT_GRID_SEARCH_MODEL_FILE_PATH \
     = './resources/dt_grid_search_model.sav'
 
 CONSTANT_DT_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/dt_undersampled_grid_search_model.sav'
+    = './resources/dt_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_DT_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/dt_oversampled_grid_search_model.sav'
+    = './resources/dt_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_DT_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/dt_centroids_grid_search_model.sav'
+CONSTANT_DT_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/dt_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_DT_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/dt_smote_grid_search_model.sav'
+    = './resources/dt_SMOTE_grid_search_model.sav'
 
-CONSTANT_DT_SMOTEEN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/dt_smoteen_grid_search_model.sav'
+CONSTANT_DT_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/dt_SMOTEENN_grid_search_model.sav'
 
 
 CONSTANT_RF_GRID_SEARCH_MODEL_FILE_PATH \
     = './resources/rf_grid_search_model.sav'
 
 CONSTANT_RF_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/rf_undersampled_grid_search_model.sav'
+    = './resources/rf_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_RF_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/rf_oversampled_grid_search_model.sav'
+    = './resources/rf_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_RF_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/rf_centroids_grid_search_model.sav'
+CONSTANT_RF_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/rf_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_RF_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/rf_smote_grid_search_model.sav'
+    = './resources/rf_SMOTE_grid_search_model.sav'
 
-CONSTANT_RF_SMOTEEN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/rf_smoteen_grid_search_model.sav'
+CONSTANT_RF_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/rf_SMOTEENN_grid_search_model.sav'
 
 
 CONSTANT_SVM_GRID_SEARCH_MODEL_FILE_PATH \
     = './resources/svm_grid_search_model.sav'
 
 CONSTANT_SVM_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/svm_undersampled_grid_search_model.sav'
+    = './resources/svm_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_SVM_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/svm_oversampled_grid_search_model.sav'
+    = './resources/svm_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_SVM_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/svm_centroids_grid_search_model.sav'
+CONSTANT_SVM_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/svm_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_SVM_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/svm_smote_grid_search_model.sav'
+    = './resources/svm_SMOTE_grid_search_model.sav'
 
-CONSTANT_SVM_SMOTEEN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/svm_smoteen_grid_search_model.sav'
+CONSTANT_SVM_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/svm_SMOTEENN_grid_search_model.sav'
 
 
 CONSTANT_KNN_GRID_SEARCH_MODEL_FILE_PATH \
     = './resources/knn_grid_search_model.sav'
 
 CONSTANT_KNN_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/knn_undersampled_grid_search_model.sav'
+    = './resources/knn_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_KNN_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/knn_oversampled_grid_search_model.sav'
+    = './resources/knn_OVERSAMPLED_grid_search_model.sav'
 
-CONSTANT_KNN_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/knn_centroids_grid_search_model.sav'
+CONSTANT_KNN_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/knn_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_KNN_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/knn_smote_grid_search_model.sav'
+    = './resources/knn_SMOTE_grid_search_model.sav'
 
-CONSTANT_KNN_SMOTEEN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './resources/knn_smoteen_grid_search_model.sav'
+CONSTANT_KNN_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
+    = './resources/knn_SMOTEENN_grid_search_model.sav'
 
 
 # In[5]:
@@ -150,114 +150,114 @@ CONSTANT_LR_MODEL_FILE_PATH \
     = './resources/lr_model.sav'
 
 CONSTANT_LR_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './resources/lr_undersampled_model.sav'
+    = './resources/lr_UNDERSAMPLED_model.sav'
 
 CONSTANT_LR_OVERSAMPLED_MODEL_FILE_PATH \
-    = './resources/lr_oversampled_model.sav'
+    = './resources/lr_OVERSAMPLED_model.sav'
 
-CONSTANT_LR_CENTROIDS_MODEL_FILE_PATH \
-    = './resources/lr_centroids_model.sav'
+CONSTANT_LR_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './resources/lr_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_LR_SMOTE_MODEL_FILE_PATH \
-    = './resources/lr_smote_model.sav'
+    = './resources/lr_SMOTE_model.sav'
 
-CONSTANT_LR_SMOTEEN_MODEL_FILE_PATH \
-    = './resources/lr_smoteen_model.sav'
+CONSTANT_LR_SMOTEENN_MODEL_FILE_PATH \
+    = './resources/lr_SMOTEENN_model.sav'
 
 
 CONSTANT_DT_MODEL_FILE_PATH \
     = './resources/dt_model.sav'
 
 CONSTANT_DT_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './resources/dt_undersampled_model.sav'
+    = './resources/dt_UNDERSAMPLED_model.sav'
 
 CONSTANT_DT_OVERSAMPLED_MODEL_FILE_PATH \
-    = './resources/dt_oversampled_model.sav'
+    = './resources/dt_OVERSAMPLED_model.sav'
 
-CONSTANT_DT_CENTROIDS_MODEL_FILE_PATH \
-    = './resources/dt_centroids_model.sav'
+CONSTANT_DT_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './resources/dt_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_DT_SMOTE_MODEL_FILE_PATH \
-    = './resources/dt_smote_model.sav'
+    = './resources/dt_SMOTE_model.sav'
 
-CONSTANT_DT_SMOTEEN_MODEL_FILE_PATH \
-    = './resources/dt_smoteen_model.sav'
+CONSTANT_DT_SMOTEENN_MODEL_FILE_PATH \
+    = './resources/dt_SMOTEENN_model.sav'
 
 
 CONSTANT_RF_MODEL_FILE_PATH \
     = './resources/rf_model.sav'
 
 CONSTANT_RF_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './resources/rf_undersampled_model.sav'
+    = './resources/rf_UNDERSAMPLED_model.sav'
 
 CONSTANT_RF_OVERSAMPLED_MODEL_FILE_PATH \
-    = './resources/rf_oversampled_model.sav'
+    = './resources/rf_OVERSAMPLED_model.sav'
 
-CONSTANT_RF_CENTROIDS_MODEL_FILE_PATH \
-    = './resources/rf_centroids_model.sav'
+CONSTANT_RF_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './resources/rf_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_RF_SMOTE_MODEL_FILE_PATH \
-    = './resources/rf_smote_model.sav'
+    = './resources/rf_SMOTE_model.sav'
 
-CONSTANT_RF_SMOTEEN_MODEL_FILE_PATH \
-    = './resources/rf_smoteen_model.sav'
+CONSTANT_RF_SMOTEENN_MODEL_FILE_PATH \
+    = './resources/rf_SMOTEENN_model.sav'
 
 
 CONSTANT_SVM_MODEL_FILE_PATH \
     = './resources/svm_model.sav'
 
 CONSTANT_SVM_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './resources/svm_undersampled_model.sav'
+    = './resources/svm_UNDERSAMPLED_model.sav'
 
 CONSTANT_SVM_OVERSAMPLED_MODEL_FILE_PATH \
-    = './resources/svm_oversampled_model.sav'
+    = './resources/svm_OVERSAMPLED_model.sav'
 
-CONSTANT_SVM_CENTROIDS_MODEL_FILE_PATH \
-    = './resources/svm_centroids_model.sav'
+CONSTANT_SVM_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './resources/svm_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_SVM_SMOTE_MODEL_FILE_PATH \
-    = './resources/svm_smote_model.sav'
+    = './resources/svm_SMOTE_model.sav'
 
-CONSTANT_SVM_SMOTEEN_MODEL_FILE_PATH \
-    = './resources/svm_smoteen_model.sav'
+CONSTANT_SVM_SMOTEENN_MODEL_FILE_PATH \
+    = './resources/svm_SMOTEENN_model.sav'
 
 
 CONSTANT_KNN_MODEL_FILE_PATH \
     = './resources/knn_model.sav'
 
 CONSTANT_KNN_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './resources/knn_undersampled_model.sav'
+    = './resources/knn_UNDERSAMPLED_model.sav'
 
 CONSTANT_KNN_OVERSAMPLED_MODEL_FILE_PATH \
-    = './resources/knn_oversampled_model.sav'
+    = './resources/knn_OVERSAMPLED_model.sav'
 
-CONSTANT_KNN_CENTROIDS_MODEL_FILE_PATH \
-    = './resources/knn_centroids_model.sav'
+CONSTANT_KNN_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './resources/knn_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_KNN_SMOTE_MODEL_FILE_PATH \
-    = './resources/knn_smote_model.sav'
+    = './resources/knn_SMOTE_model.sav'
 
-CONSTANT_KNN_SMOTEEN_MODEL_FILE_PATH \
-    = './resources/knn_smoteen_model.sav'
+CONSTANT_KNN_SMOTEENN_MODEL_FILE_PATH \
+    = './resources/knn_SMOTEENN_model.sav'
 
 
 CONSTANT_GNB_MODEL_FILE_PATH \
     = './resources/gnb_model.sav'
 
 CONSTANT_GNB_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './resources/gnb_undersampled_model.sav'
+    = './resources/gnb_UNDERSAMPLED_model.sav'
 
 CONSTANT_GNB_OVERSAMPLED_MODEL_FILE_PATH \
-    = './resources/gnb_oversampled_model.sav'
+    = './resources/gnb_OVERSAMPLED_model.sav'
 
-CONSTANT_GNB_CENTROIDS_MODEL_FILE_PATH \
-    = './resources/gnb_centroids_model.sav'
+CONSTANT_GNB_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
+    = './resources/gnb_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_GNB_SMOTE_MODEL_FILE_PATH \
-    = './resources/gnb_smote_model.sav'
+    = './resources/gnb_SMOTE_model.sav'
 
-CONSTANT_GNB_SMOTEEN_MODEL_FILE_PATH \
-    = './resources/gnb_smoteen_model.sav'
+CONSTANT_GNB_SMOTEENN_MODEL_FILE_PATH \
+    = './resources/gnb_SMOTEENN_model.sav'
 
 
 # In[ ]:
