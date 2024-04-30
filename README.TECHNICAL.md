@@ -82,57 +82,57 @@ Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 |&rarr; [./images/](./images/)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable12SpamDataTable.png](./images/spam_detector_optimizationTable12SpamDataTable.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable12SpamDataTable.png](./images/spam_detector_optimization_colabTable12SpamDataTable.png)
   
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable131SpamTargetSeries.png](./images/spam_detector_optimizationTable131SpamTargetSeries.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable131SpamTargetSeries.png](./images/spam_detector_optimization_colabTable131SpamTargetSeries.png)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable132SpamFeaturesDataFrame.png](./images/spam_detector_optimizationTable132SpamFeaturesDataFrame.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable132SpamFeaturesDataFrame.png](./images/spam_detector_optimization_colabTable132SpamFeaturesDataFrame.png)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable151SpamScaledFeaturesTrainingData.png](./images/spam_detector_optimizationTable151SpamScaledFeaturesTrainingData.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable151SpamScaledFeaturesTrainingData.png](./images/spam_detector_optimization_colabTable151SpamScaledFeaturesTrainingData.png)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable152SpamScaledFeaturesTestData.png](./images/spam_detector_optimizationTable152SpamScaledFeaturesTestData.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable152SpamScaledFeaturesTestData.png](./images/spam_detector_optimization_colabTable152SpamScaledFeaturesTestData.png)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable271ScaledFeaturesTrainingUndersampledData.png](./images/spam_detector_optimizationTable271ScaledFeaturesTrainingUndersampledData.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable271ScaledFeaturesTrainingUndersampledData.png](./images/spam_detector_optimization_colabTable271ScaledFeaturesTrainingUndersampledData.png)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable272ScaledFeaturesTrainingOversampledData.png](./images/spam_detector_optimizationTable272ScaledFeaturesTrainingOversampledData.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable272ScaledFeaturesTrainingOversampledData.png](./images/spam_detector_optimization_colabTable272ScaledFeaturesTrainingOversampledData.png)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable273ScaledFeaturesTrainingClusterCentroidsData.png](./images/spam_detector_optimizationTable273ScaledFeaturesTrainingClusterCentroidsData.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable273ScaledFeaturesTrainingClusterCentroidsData.png](./images/spam_detector_optimization_colabTable273ScaledFeaturesTrainingClusterCentroidsData.png)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable275ScaledFeaturesTrainingSMOTEENData.png](./images/spam_detector_optimizationTable275ScaledFeaturesTrainingSMOTEENData.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable275ScaledFeaturesTrainingSMOTEENData.png](./images/spam_detector_optimization_colabTable275ScaledFeaturesTrainingSMOTEENData.png)
 
-  &emsp; |&rarr; [./images/spam_detector_optimizationTable275XTrainingScaledSMOTEENData.png](./images/spam_detector_optimizationTable275XTrainingScaledSMOTEENData.png)
+  &emsp; |&rarr; [./images/spam_detector_optimization_colabTable275XTrainingScaledSMOTEENData.png](./images/spam_detector_optimization_colabTable275XTrainingScaledSMOTEENData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable12SpamDataTable.png](./images/spam_detectorTable12SpamDataTable.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable12SpamDataTable.png](./images/spam_detector_colabTable12SpamDataTable.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable131SpamTargetSeries.png](./images/spam_detectorTable131SpamTargetSeries.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable131SpamTargetSeries.png](./images/spam_detector_colabTable131SpamTargetSeries.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable132SpamFeaturesDataFrame.png](./images/spam_detectorTable132SpamFeaturesDataFrame.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable132SpamFeaturesDataFrame.png](./images/spam_detector_colabTable132SpamFeaturesDataFrame.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable151SpamScaledFeaturesTrainingData.png](./images/spam_detectorTable151SpamScaledFeaturesTrainingData.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable151SpamScaledFeaturesTrainingData.png](./images/spam_detector_colabTable151SpamScaledFeaturesTrainingData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable152SpamScaledFeaturesTestData.png](./images/spam_detectorTable152SpamScaledFeaturesTestData.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable152SpamScaledFeaturesTestData.png](./images/spam_detector_colabTable152SpamScaledFeaturesTestData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable271ScaledFeaturesTrainingUndersampledData.png](./images/spam_detectorTable271ScaledFeaturesTrainingUndersampledData.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable271ScaledFeaturesTrainingUndersampledData.png](./images/spam_detector_colabTable271ScaledFeaturesTrainingUndersampledData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable272ScaledFeaturesTrainingOversampledData.png](./images/spam_detectorTable272ScaledFeaturesTrainingOversampledData.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable272ScaledFeaturesTrainingOversampledData.png](./images/spam_detector_colabTable272ScaledFeaturesTrainingOversampledData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable273ScaledFeaturesTrainingClusterCentroidsData.png](./images/spam_detectorTable273ScaledFeaturesTrainingClusterCentroidsData.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable273ScaledFeaturesTrainingClusterCentroidsData.png](./images/spam_detector_colabTable273ScaledFeaturesTrainingClusterCentroidsData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable274ScaledFeaturesTrainingSMOTEData.png](./images/spam_detectorTable274ScaledFeaturesTrainingSMOTEData.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable274ScaledFeaturesTrainingSMOTEData.png](./images/spam_detector_colabTable274ScaledFeaturesTrainingSMOTEData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable275ScaledFeaturesTrainingSMOTEENData.png](./images/spam_detectorTable275ScaledFeaturesTrainingSMOTEENData.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable275ScaledFeaturesTrainingSMOTEENData.png](./images/spam_detector_colabTable275ScaledFeaturesTrainingSMOTEENData.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable971ModelPerformanceMatrix.png](./images/spam_detectorTable971ModelPerformanceMatrix.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable971ModelPerformanceMatrix.png](./images/spam_detector_colabTable971ModelPerformanceMatrix.png)
 
-  &emsp; |&rarr; [./images/spam_detectorTable972ModelPerformanceRankings.png](./images/spam_detectorTable972ModelPerformanceRankings.png)
+  &emsp; |&rarr; [./images/spam_detector_colabTable972ModelPerformanceRankings.png](./images/spam_detector_colabTable972ModelPerformanceRankings.png)
   
   &emsp; |&rarr; [./images/README.md](./images/README.md)
   
 |&rarr; [./logs/](./logs/)
 
-  &emsp; |&rarr; [./logs/20240415spam_detector_log.txt](./logs/20240415spam_detector_log.txt)
+  &emsp; |&rarr; [./logs/20240415spam_detector_colab_log.txt](./logs/20240415spam_detector_colab_log.txt)
 
-  &emsp; |&rarr; [./logs/20240415spam_detector_optimization_log.txt](./logs/20240415spam_detector_optimization_log.txt)
+  &emsp; |&rarr; [./logs/20240415spam_detector_optimization_colab_log.txt](./logs/20240415spam_detector_optimization_colab_log.txt)
 
   &emsp; |&rarr; [./logs/README.md](./logs/README.md)
 
