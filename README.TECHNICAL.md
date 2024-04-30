@@ -138,135 +138,141 @@ Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 |&rarr; [./resources/](./resources/)
 
-  &emsp; |&rarr; [./resources/dt_centroids_grid_search_model.sav](./resources/dt_centroids_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/dt_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/dt_CLUSTER_CENTROIDS_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/dt_centroids_model.sav](./resources/dt_centroids_model.sav)
+  &emsp; |&rarr; [./resources/dt_CLUSTER_CENTROIDS_model.sav](./resources/dt_CLUSTER_CENTROIDS_model.sav)
 
   &emsp; |&rarr; [./resources/dt_grid_search_model.sav](./resources/dt_grid_search_model.sav)
 
   &emsp; |&rarr; [./resources/dt_model.sav](./resources/dt_model.sav)
 
-  &emsp; |&rarr; [./resources/dt_oversampled_grid_search_model.sav](./resources/dt_oversampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/dt_OVERSAMPLED_grid_search_model.sav](./resources/dt_OVERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/dt_smote_grid_search_model.sav](./resources/dt_smote_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/dt_OVERSAMPLED_model.sav](./resources/dt_OVERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/dt_smote_model.sav](./resources/dt_smote_model.sav)
+  &emsp; |&rarr; [./resources/dt_SMOTE_grid_search_model.sav](./resources/dt_SMOTE_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/dt_smoteen_grid_search_model.sav](./resources/dt_smoteen_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/dt_SMOTE_model.sav](./resources/dt_SMOTE_model.sav)
 
-  &emsp; |&rarr; [./resources/dt_smoteen_model.sav](./resources/dt_smoteen_model.sav)
+  &emsp; |&rarr; [./resources/dt_SMOTEENN_grid_search_model.sav](./resources/dt_SMOTEENN_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/dt_undersampled_grid_search_model.sav](./resources/dt_undersampled_grid_search_model.sav)
-  
-  &emsp; |&rarr; [./resources/dt_undersampled_model.sav](./resources/dt_undersampled_model.sav)
+  &emsp; |&rarr; [./resources/dt_SMOTEENN_model.sav](./resources/dt_SMOTEENN_model.sav)
 
-  &emsp; |&rarr; [./resources/gnb_centroids_model.sav](./resources/gnb_centroids_model.sav)
+  &emsp; |&rarr; [./resources/dt_UNDERSAMPLED_grid_search_model.sav](./resources/dt_UNDERSAMPLED_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/dt_UNDERSAMPLED_model.sav](./resources/dt_UNDERSAMPLED_model.sav)
+
+  &emsp; |&rarr; [./resources/gnb_CLUSTER_CENTROIDS_model.sav](./resources/gnb_CLUSTER_CENTROIDS_model.sav)
 
   &emsp; |&rarr; [./resources/gnb_model.sav](./resources/gnb_model.sav)
 
-  &emsp; |&rarr; [./resources/gnb_oversampled_model.sav](./resources/gnb_oversampled_model.sav)
+  &emsp; |&rarr; [./resources/gnb_OVERSAMPLED_model.sav](./resources/gnb_OVERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/gnb_smote_model.sav](./resources/gnb_smote_model.sav)
+  &emsp; |&rarr; [./resources/gnb_SMOTE_model.sav](./resources/gnb_SMOTE_model.sav)
 
-  &emsp; |&rarr; [./resources/gnb_smoteen_model.sav](./resources/gnb_smoteen_model.sav)
+  &emsp; |&rarr; [./resources/gnb_SMOTEENN_model.sav](./resources/gnb_SMOTEENN_model.sav)
 
-  &emsp; |&rarr; [./resources/gnb_undersampled_model.sav](./resources/gnb_undersampled_model.sav)
+  &emsp; |&rarr; [./resources/gnb_UNDERSAMPLED_model.sav](./resources/gnb_UNDERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_centroids_grid_search_model.sav](./resources/knn_centroids_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/knn_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/knn_CLUSTER_CENTROIDS_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_centroids_model.sav](./resources/knn_centroids_model.sav)
+  &emsp; |&rarr; [./resources/knn_CLUSTER_CENTROIDSs_model.sav](./resources/knn_CLUSTER_CENTROIDSs_model.sav)
 
   &emsp; |&rarr; [./resources/knn_grid_search_model.sav](./resources/knn_grid_search_model.sav)
 
   &emsp; |&rarr; [./resources/knn_model.sav](./resources/knn_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_oversampled_grid_search_model.sav](./resources/knn_oversampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/knn_OVERSAMPLED_grid_search_model.sav](./resources/knn_OVERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_oversampled_model.sav](./resources/knn_oversampled_model.sav)
+  &emsp; |&rarr; [./resources/knn_OVERSAMPLED_model.sav](./resources/knn_OVERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_smote_grid_search_model.sav](./resources/knn_smote_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/knn_SMOTE_grid_search_model.sav](./resources/knn_SMOTE_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_smote_model.sav](./resources/knn_smote_model.sav)
+  &emsp; |&rarr; [./resources/knn_SMOTE_model.sav](./resources/knn_SMOTE_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_smoteen_grid_search_model.sav](./resources/knn_smoteen_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/knn_SMOTEENN_grid_search_model.sav](./resources/knn_SMOTEENN_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_smoteen_model.sav](./resources/knn_smoteen_model.sav)
+  &emsp; |&rarr; [./resources/knn_SMOTEENN_model.sav](./resources/knn_SMOTEENN_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_undersampled_grid_search_model.sav](./resources/knn_undersampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/knn_UNDERSAMPLED_grid_search_model.sav](./resources/knn_UNDERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/knn_undersampled_model.sav](./resources/knn_undersampled_model.sav)
+  &emsp; |&rarr; [./resources/knn_UNDERSAMPLED_model.sav](./resources/knn_UNDERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_centroids_grid_search_model.sav](./resources/lr_centroids_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/lending_data.csv](./resources/lending_data.csv)
 
-  &emsp; |&rarr; [./resources/lr_centroids_model.sav](./resources/lr_centroids_model.sav)
+  &emsp; |&rarr; [./resources/lr_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/lr_CLUSTER_CENTROIDS_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/lr_CLUSTER_CENTROIDS_model.sav](./resources/lr_CLUSTER_CENTROIDS_model.sav)
 
   &emsp; |&rarr; [./resources/lr_grid_search_model.sav](./resources/lr_grid_search_model.sav)
 
   &emsp; |&rarr; [./resources/lr_model.sav](./resources/lr_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_oversampled_grid_search_model.sav](./resources/lr_oversampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/lr_OVERSAMPLED_grid_search_model.sav](./resources/lr_OVERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_oversampled_model.sav](./resources/lr_oversampled_model.sav)
+  &emsp; |&rarr; [./resources/lr_OVERSAMPLED_model.sav](./resources/lr_OVERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_smote_grid_search_model.sav](./resources/lr_smote_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/lr_SMOTE_grid_search_model.sav](./resources/lr_SMOTE_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_smote_model.sav](./resources/lr_smote_model.sav)
+  &emsp; |&rarr; [./resources/lr_SMOTE_model.sav](./resources/lr_SMOTE_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_smoteen_grid_search_model.sav](./resources/lr_smoteen_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/lr_SMOTEENN_grid_search_model.sav](./resources/lr_SMOTEENN_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_smoteen_model.sav](./resources/lr_smoteen_model.sav)
+  &emsp; |&rarr; [./resources/lr_SMOTEENN_model.sav](./resources/lr_SMOTEENN_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_undersampled_grid_search_model.sav](./resources/lr_undersampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/lr_UNDERSAMPLED_grid_search_model.sav](./resources/lr_UNDERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/lr_undersampled_model.sav](./resources/lr_undersampled_model.sav)
+  &emsp; |&rarr; [./resources/lr_UNDERSAMPLED_model.sav](./resources/lr_UNDERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_centroids_grid_search_model.sav](./resources/rf_centroids_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/README.md](./resources/README.md)
 
-  &emsp; |&rarr; [./resources/rf_centroids_model.sav](./resources/rf_centroids_model.sav)
+  &emsp; |&rarr; [./resources/rf_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/rf_CLUSTER_CENTROIDS_grid_search_model.sav)
+
+  &emsp; |&rarr; [./resources/rf_CLUSTER_CENTROIDS_model.sav](./resources/rf_CLUSTER_CENTROIDS_model.sav)
 
   &emsp; |&rarr; [./resources/rf_grid_search_model.sav](./resources/rf_grid_search_model.sav)
 
   &emsp; |&rarr; [./resources/rf_model.sav](./resources/rf_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_oversampled_grid_search_model.sav](./resources/rf_oversampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/rf_OVERSAMPLED_grid_search_model.sav](./resources/rf_OVERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_oversampled_model.sav](./resources/rf_oversampled_model.sav)
+  &emsp; |&rarr; [./resources/rf_OVERSAMPLED_model.sav](./resources/rf_OVERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_smote_grid_search_model.sav](./resources/rf_smote_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/rf_SMOTE_grid_search_model.sav](./resources/rf_SMOTE_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_smote_model.sav](./resources/rf_smote_model.sav)
+  &emsp; |&rarr; [./resources/rf_SMOTE_model.sav](./resources/rf_SMOTE_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_smoteen_grid_search_model.sav](./resources/rf_smoteen_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/rf_SMOTEENN_grid_search_model.sav](./resources/rf_SMOTEENN_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_smoteen_model.sav](./resources/rf_smoteen_model.sav)
+  &emsp; |&rarr; [./resources/rf_SMOTEENN_model.sav](./resources/rf_SMOTEENN_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_undersampled_grid_search_model.sav](./resources/rf_undersampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/rf_UNDERSAMPLED_grid_search_model.sav](./resources/rf_UNDERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/rf_undersampled_model.sav](./resources/rf_undersampled_model.sav)
+  &emsp; |&rarr; [./resources/rf_UNDERSAMPLED_model.sav](./resources/rf_UNDERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_centroids_grid_search_model.sav](./resources/svm_centroids_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/svm_CLUSTER_CENTROIDS_grid_search_model.sav](./resources/svm_CLUSTER_CENTROIDS_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_centroids_model.sav](./resources/svm_centroids_model.sav)
+  &emsp; |&rarr; [./resources/svm_CLUSTER_CENTROIDS_model.sav](./resources/svm_CLUSTER_CENTROIDS_model.sav)
 
   &emsp; |&rarr; [./resources/svm_grid_search_model.sav](./resources/svm_grid_search_model.sav)
 
   &emsp; |&rarr; [./resources/svm_model.sav](./resources/svm_model.sav)
   
-  &emsp; |&rarr; [./resources/svm_oversampled_grid_search_model.sav](./resources/svm_oversampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/svm_OVERSAMPLED_grid_search_model.sav](./resources/svm_OVERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_oversampled_model.sav](./resources/svm_oversampled_model.sav)
+  &emsp; |&rarr; [./resources/svm_OVERSAMPLED_model.sav](./resources/svm_OVERSAMPLED_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_smote_grid_search_model.sav](./resources/svm_smote_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/svm_SMOTE_grid_search_model.sav](./resources/svm_SMOTE_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_smote_model.sav](./resources/svm_smote_model.sav)
+  &emsp; |&rarr; [./resources/svm_SMOTE_model.sav](./resources/svm_SMOTE_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_smoteen_grid_search_model.sav](./resources/svm_smoteen_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/svm_SMOTEENN_grid_search_model.sav](./resources/svm_SMOTEENN_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_smoteen_model.sav](./resources/svm_smoteen_model.sav)
+  &emsp; |&rarr; [./resources/svm_SMOTEENN_model.sav](./resources/svm_SMOTEENN_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_undersampled_grid_search_model.sav](./resources/svm_undersampled_grid_search_model.sav)
+  &emsp; |&rarr; [./resources/svm_UNDERSAMPLED_grid_search_model.sav](./resources/svm_UNDERSAMPLED_grid_search_model.sav)
 
-  &emsp; |&rarr; [./resources/svm_undersampled_model.sav](./resources/svm_undersampled_model.sav)
+  &emsp; |&rarr; [./resources/svm_UNDERSAMPLED_model.sav](./resources/svm_UNDERSAMPLED_model.sav)
 
   &emsp; |&rarr; [./resources/README.md](./resources/README.md)
 
