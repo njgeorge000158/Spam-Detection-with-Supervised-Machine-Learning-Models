@@ -1,4 +1,4 @@
-# Credit-Risk-Classification-Using-Scikit-Learn
+# Spam-Detection-with-Supervised-Machine-Learning-Models
 
 ----
 
