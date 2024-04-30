@@ -6,25 +6,7 @@
 
 ----
 
-If the computer has Anaconda, Jupyter Notebook, and a recent version of Python, the IPython notebook already has the following dependencies installed: datetime, io, json, matplotlib, numpy, pandas, pathlib, os, pandas, requests, requests_html, scipy.
-
-In addition to those modules, the IPython notebook needs the following to execute: holoviews, hvplot, geoviews, geopy, aspose-words, dataframe-image, sklearn.
-
-Here are the requisite Terminal commands for the installation of these peripheral modules:
-
-pip3 install -U holoviews
-
-pip3 install -U hvplot
-
-pip3 install -U geoviews
-
-pip3 install -U geopy
-
-pip3 install -U aspose-words
-
-pip3 install -U dataframe-image
-
-pip3 install -U scikit-learn
+This project only requires running the Google Colab Notebook, spam_detector.ipynb.
 
 ----
 
@@ -32,19 +14,19 @@ pip3 install -U scikit-learn
 
 ----
 
-The IPython notebook, spam_detector.ipynb, requires the following Python scripts with it in the same folder:
+The Google Colab Notebook, spam_detector.ipynb, requires the following Python scripts with it in the same folder:
 
 classificationsx.py
 
-logx_constants.py
-
 logx.py
 
-pandas_processx.py
+pandasx.py
 
 spam_detector_constants.py
 
-If the folders, logs and images, are not present, the IPython notebook will create them.  The IPython notebook, spam_detector.ipynb, requires the csv file, spam_data.csv, found in the link, https://static.bc-edx.com/mbc/ai/m4/datasets/spam-data.csv, to execute. To place the IPython notebook in Log Mode or Image Mode set the parameter for the appropriate function in the IPython notebook's second coding cell to True. If the program is in Log Mode, it writes designated information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files to the folder, images.
+timex.py
+
+If the folders, logs and images, are not present, the Google Colab Notebook will create them.  The Google Colab Notebook, spam_detector.ipynb, requires the csv file, spam_data.csv, found in the link, https://static.bc-edx.com/mbc/ai/m4/datasets/spam-data.csv, and grid search model files found in the folder, resources, to execute. To place the Google Colab Notebook in Log Mode or Image Mode set the parameter for the appropriate function in the Google Colab Notebook's second coding cell to True. In Log Mode, it writes designated information to the log file in the folder, logs. If the program is in Image Mode, it writes all DataFrames, hvplot maps, and matplotlib plots to PNG and HTML files to the folder, images.
 
 ----
 
@@ -54,15 +36,15 @@ If the folders, logs and images, are not present, the IPython notebook will crea
 
 #### Source code
 
-spam_detector.ipynb, spam_detector_constants.py, classificationsx.py, logx_constants.py, logx.py, pandas_processx.py
+spam_detector.ipynb, classificationsx.py, logx.py, pandasx.py, spam_detector_constants.py, timex.py
 
 #### Input files
 
-spam_data.csv
+spam_data.csv, dt_CLUSTER_CENTROIDS_grid_search_model.sav, dt_grid_search_model.sav, dt_OVERSAMPLED_grid_search_model.sav, dt_SMOTE_grid_search_model.sav, dt_SMOTEENN_grid_search_model.sav, dt_UNDERSAMPLED_grid_search_model.sav, knn_CLUSTER_CENTROIDS_grid_search_model.sav, knn_grid_search_model.sav, knn_OVERSAMPLED_grid_search_model.sav, knn_SMOTE_grid_search_model.sav, knn_SMOTEENN_grid_search_model.sav, knn_UNDERSAMPLED_grid_search_model.sav, lr_CLUSTER_CENTROIDS_grid_search_model.sav, lr_grid_search_model.sav, lr_OVERSAMPLED_grid_search_model.sav, lr_SMOTE_grid_search_model.sav, lr_SMOTEENN_grid_search_model.sav, lr_UNDERSAMPLED_grid_search_model.sav, rf_CLUSTER_CENTROIDS_grid_search_model.sav, rf_grid_search_model.sav, rf_OVERSAMPLED_grid_search_model.sav, rf_SMOTE_grid_search_model.sav, rf_SMOTEENN_grid_search_model.sav, rf_UNDERSAMPLED_grid_search_model.sav, svm_CLUSTER_CENTROIDS_grid_search_model.sav, svm_grid_search_model.sav, svm_OVERSAMPLED_grid_search_model.sav, svm_SMOTE_grid_search_model.sav, svm_SMOTEENN_grid_search_model.sav, svm_UNDERSAMPLED_grid_search_model.sav, 
 
 #### Output files
 
-dt_centroids_model.sav, dt_model.sav, dt_oversampled_model.sav, dt_smote_model.sav, dt_smoteen_model.sav, dt_undersampled_model.sav, gnb_centroids_model.sav, gnb_model.sav, gnb_oversampled_model.sav, gnb_smote_model.sav, gnb_smoteen_model.sav, gnb_undersampled_model.sav, knn_centroids_model.sav, knn_model.sav, knn_oversampled_model.sav, knn_smote_model.sav, knn_smoteen_model.sav, knn_undersampled_model.sav, lr_centroids_model.sav, lr_model.sav, lr_oversampled_model.sav, lr_smote_model.sav, lr_smoteen_model.sav, lr_undersampled_model.sav, rf_centroids_model.sav, rf_model.sav, rf_oversampled_model.sav, rf_smote_model.sav, rf_smoteen_model.sav, rf_undersampled_model.sav, svm_centroids_model.sav, svm_model.sav, svm_oversampled_model.sav, svm_smote_model.sav, svm_smoteen_model.sav, svm_undersampled_model.sav
+dt_CLUSTER_CENTROIDS_model.sav, dt_model.sav, dt_OVERSAMPLED_model.sav, dt_SMOTE_model.sav, dt_SMOTEENN_model.sav, dt_UNDERSAMPLED_model.sav, gnb_CLUSTER_CENTROIDS_model.sav, gnb_model.sav, gnb_OVERSAMPLED_model.sav, gnb_SMOTE_model.sav, gnb_SMOTEENN_model.sav, gnb_UNDERSAMPLED_model.sav, knn_CLUSTER_CENTROIDS_model.sav, knn_model.sav, knn_OVERSAMPLED_model.sav, knn_SMOTE_model.sav, knn_SMOTEENN_model.sav, knn_UNDERSAMPLED_model.sav, lr_CLUSTER_CENTROIDS_model.sav, lr_model.sav, lr_OVERSAMPLED_model.sav, lr_SMOTE_model.sav, lr_SMOTEENN_model.sav, lr_UNDERSAMPLED_model.sav, rf_CLUSTER_CENTROIDS_model.sav, rf_model.sav, rf_OVERSAMPLED_model.sav, rf_SMOTE_model.sav, rf_SMOTEENN_model.sav, rf_UNDERSAMPLED_model.sav, svm_CLUSTER_CENTROIDS_model.sav, svm_model.sav, svm_OVERSAMPLED_model.sav, svm_SMOTE_model.sav, svm_SMOTEENN_model.sav, svm_UNDERSAMPLED_model.sav
 
 #### SQL script
 
@@ -70,9 +52,9 @@ n/a
 
 #### Software
 
-Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
+Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 ----
 
@@ -84,11 +66,9 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 |&rarr; [./classificationsx.py](./classificationsx.py)
 
-|&rarr; [./logx_constants.py](./logx_constants.py)
-
 |&rarr; [./logx.py](./logx.py)
 
-|&rarr; [./pandas_processx.py](./pandas_processx.py)
+|&rarr; [./pandas_processx.py](./pandasx.py)
 
 |&rarr; [./spam_detector_constants.py](./spam_detector_constants.py)
 
@@ -296,7 +276,7 @@ Jupyter Notebook, Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 ----
 
-[Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
+[imbalanced-learn documentation](https://imbalanced-learn.org/stable/)
 
 [Matplotlib Documentation](https://matplotlib.org/stable/index.html)
 
