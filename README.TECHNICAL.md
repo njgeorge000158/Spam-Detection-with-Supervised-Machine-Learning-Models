@@ -72,8 +72,6 @@ Matplotlib, Numpy, Pandas, Python 3.11.4, scikit-learn
 
 |&rarr; [./spam_detector_constants.py](./spam_detector_constants.py)
 
-|&rarr; [./spam_detector_hyperparameters_optimization.ipynb](./spam_detector_hyperparameters_optimization.ipynb)
-
 |&rarr; [./spam_detector_colab.ipynb](./spam_detector_colab.ipynb)
 
 |&rarr; [./README.TECHNICAL.md](./README.TECHNICAL.md)
