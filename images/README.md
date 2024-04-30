@@ -1,4 +1,4 @@
-This folder holds the images for the IPython Notebooks, spam_detector.ipynb and spam_detector_optimization.ipynb.
+This folder holds the images for the Google Colab Notebook, spam_detector_colab.ipynb and spam_detector_hyperparameters_optimization_colab.ipynb.
 
 ----
 
