@@ -1,4 +1,4 @@
-# **Spam Detection with Supervised Machine Learning Models Using Scikit-Learn**
+# **Spam Detection with Supervised Machine Learning Models**
 
 ----
 
