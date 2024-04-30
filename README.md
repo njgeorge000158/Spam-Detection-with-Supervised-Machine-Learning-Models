@@ -13,8 +13,7 @@ To accomplish the analysis, I used the following process:
 1. Created 36 optimized hyperparameter models (6 classifiers X 6 sampling methodologies) in the IPython Notebook, spam_detector_optimization.ipynb, and wrote them to files in the folder, resources.
 2. Read the spam data into a dataframe in the IPython Notebook, spam_detector.ipynb.
 3. Separated the data into features and labels, checked the labels value count, and split the features and labels variables into training and testing data sets.
-4. Read the optimized hyperparameters from the files in the folder, resources.
-6. Fit the models by using the optimized parameters and the training data.
+4. Read the optimized hyperparameters from the files in the folder, resources, and fit the models by using these optimized parameters and the training data.
 7. Evaluated the each model’s performance using the testing data to find the accuracy, precision, and recall scores in a confusion matrix.
 
 Here is a comparison of the Logistic Regression and Random Forest models:
