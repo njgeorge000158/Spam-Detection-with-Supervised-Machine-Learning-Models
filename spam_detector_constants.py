@@ -19,6 +19,8 @@
  #
  #******************************************************************************************/
 
+import logx
+
 
 # In[2]:
 
@@ -49,215 +51,215 @@ CONSTANT_ML_KNN_LEAF_SIZE = 2
 
 
 CONSTANT_LR_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_grid_search_model.sav'
 
 CONSTANT_LR_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_UNDERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_LR_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_OVERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_OVERSAMPLED_grid_search_model.sav'
 
 CONSTANT_LR_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_CLUSTER_CENTROIDS_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_LR_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_SMOTE_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_SMOTE_grid_search_model.sav'
 
 CONSTANT_LR_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_SMOTEENN_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_SMOTEENN_grid_search_model.sav'
 
 
 CONSTANT_DT_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_grid_search_model.sav'
 
 CONSTANT_DT_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_UNDERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_DT_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_OVERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_OVERSAMPLED_grid_search_model.sav'
 
 CONSTANT_DT_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_CLUSTER_CENTROIDS_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_DT_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_SMOTE_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_SMOTE_grid_search_model.sav'
 
 CONSTANT_DT_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_SMOTEENN_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_SMOTEENN_grid_search_model.sav'
 
 
 CONSTANT_RF_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_grid_search_model.sav'
 
 CONSTANT_RF_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_UNDERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_RF_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_OVERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_OVERSAMPLED_grid_search_model.sav'
 
 CONSTANT_RF_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_CLUSTER_CENTROIDS_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_RF_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_SMOTE_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_SMOTE_grid_search_model.sav'
 
 CONSTANT_RF_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_SMOTEENN_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_SMOTEENN_grid_search_model.sav'
 
 
 CONSTANT_SVM_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_grid_search_model.sav'
 
 CONSTANT_SVM_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_UNDERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_SVM_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_OVERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_OVERSAMPLED_grid_search_model.sav'
 
 CONSTANT_SVM_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_CLUSTER_CENTROIDS_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_SVM_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_SMOTE_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_SMOTE_grid_search_model.sav'
 
 CONSTANT_SVM_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_SMOTEENN_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_SMOTEENN_grid_search_model.sav'
 
 
 CONSTANT_KNN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_grid_search_model.sav'
 
 CONSTANT_KNN_UNDERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_UNDERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_UNDERSAMPLED_grid_search_model.sav'
 
 CONSTANT_KNN_OVERSAMPLED_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_OVERSAMPLED_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_OVERSAMPLED_grid_search_model.sav'
 
 CONSTANT_KNN_CLUSTER_CENTROIDS_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_CLUSTER_CENTROIDS_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_CLUSTER_CENTROIDS_grid_search_model.sav'
 
 CONSTANT_KNN_SMOTE_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_SMOTE_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_SMOTE_grid_search_model.sav'
 
 CONSTANT_KNN_SMOTEENN_GRID_SEARCH_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_SMOTEENN_grid_search_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_SMOTEENN_grid_search_model.sav'
 
 
 # In[5]:
 
 
 CONSTANT_LR_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_model.sav'
 
 CONSTANT_LR_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_UNDERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_UNDERSAMPLED_model.sav'
 
 CONSTANT_LR_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_OVERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_OVERSAMPLED_model.sav'
 
 CONSTANT_LR_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_CLUSTER_CENTROIDS_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_LR_SMOTE_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_SMOTE_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_SMOTE_model.sav'
 
 CONSTANT_LR_SMOTEENN_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/lr_SMOTEENN_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/lr_SMOTEENN_model.sav'
 
 
 CONSTANT_DT_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_model.sav'
 
 CONSTANT_DT_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_UNDERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_UNDERSAMPLED_model.sav'
 
 CONSTANT_DT_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_OVERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_OVERSAMPLED_model.sav'
 
 CONSTANT_DT_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_CLUSTER_CENTROIDS_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_DT_SMOTE_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_SMOTE_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_SMOTE_model.sav'
 
 CONSTANT_DT_SMOTEENN_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/dt_SMOTEENN_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/dt_SMOTEENN_model.sav'
 
 
 CONSTANT_RF_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_model.sav'
 
 CONSTANT_RF_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_UNDERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_UNDERSAMPLED_model.sav'
 
 CONSTANT_RF_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_OVERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_OVERSAMPLED_model.sav'
 
 CONSTANT_RF_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_CLUSTER_CENTROIDS_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_RF_SMOTE_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_SMOTE_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_SMOTE_model.sav'
 
 CONSTANT_RF_SMOTEENN_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/rf_SMOTEENN_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/rf_SMOTEENN_model.sav'
 
 
 CONSTANT_SVM_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_model.sav'
 
 CONSTANT_SVM_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_UNDERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_UNDERSAMPLED_model.sav'
 
 CONSTANT_SVM_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_OVERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_OVERSAMPLED_model.sav'
 
 CONSTANT_SVM_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_CLUSTER_CENTROIDS_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_SVM_SMOTE_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_SMOTE_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_SMOTE_model.sav'
 
 CONSTANT_SVM_SMOTEENN_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/svm_SMOTEENN_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/svm_SMOTEENN_model.sav'
 
 
 CONSTANT_KNN_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_model.sav'
 
 CONSTANT_KNN_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_UNDERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_UNDERSAMPLED_model.sav'
 
 CONSTANT_KNN_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_OVERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_OVERSAMPLED_model.sav'
 
 CONSTANT_KNN_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_CLUSTER_CENTROIDS_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_KNN_SMOTE_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_SMOTE_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_SMOTE_model.sav'
 
 CONSTANT_KNN_SMOTEENN_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/knn_SMOTEENN_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/knn_SMOTEENN_model.sav'
 
 
 CONSTANT_GNB_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/gnb_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/gnb_model.sav'
 
 CONSTANT_GNB_UNDERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/gnb_UNDERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/gnb_UNDERSAMPLED_model.sav'
 
 CONSTANT_GNB_OVERSAMPLED_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/gnb_OVERSAMPLED_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/gnb_OVERSAMPLED_model.sav'
 
 CONSTANT_GNB_CLUSTER_CENTROIDS_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/gnb_CLUSTER_CENTROIDS_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/gnb_CLUSTER_CENTROIDS_model.sav'
 
 CONSTANT_GNB_SMOTE_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/gnb_SMOTE_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/gnb_SMOTE_model.sav'
 
 CONSTANT_GNB_SMOTEENN_MODEL_FILE_PATH \
-    = './gdrive/MyDrive/spam_detection/resources/gnb_SMOTEENN_model.sav'
+    = logx.MODELS_DIRECTORY_PATH + '/gnb_SMOTEENN_model.sav'
 
 
 # In[ ]:
