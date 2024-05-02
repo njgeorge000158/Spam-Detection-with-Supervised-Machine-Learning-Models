@@ -2,7 +2,7 @@
 
 ----
 
-## Table of Contents (spam_detector.ipynb)
+## Table of Contents (spam_detector_colab.ipynb)
 
 ----
 
@@ -245,7 +245,7 @@
 
 ----
 
-## Table of Contents (credit_risk_hyperparameters_optimization_colab)
+## Table of Contents (spam_detector_hyperparameters_optimization_colab)
 
 ----
 
