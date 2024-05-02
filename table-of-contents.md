@@ -245,7 +245,7 @@
 
 ----
 
-## Table of Contents (spam_detector_hyperparameters_optimization_colab)
+## Table of Contents (spam_detector_hyperparameters_optimization_colab.ipynb)
 
 ----
 
