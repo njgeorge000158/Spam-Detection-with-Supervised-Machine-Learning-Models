@@ -58,7 +58,7 @@ The mechanism behind undersampling's benefit here is instructive. By reducing th
 
 ---
 
-### *Full Model Rankings (Image 4)*
+### *Full Model Rankings*
 
 <img width="347" alt="Screenshot 2024-04-17 at 3 52 44 PM" src="https://github.com/njgeorge000158/Spam-Detection-with-Supervised-Machine-Learning-Models-Using-Scikit-Learn/assets/137228821/33020891-cd3c-434e-bbd0-4cac5ffc8de5">
 
